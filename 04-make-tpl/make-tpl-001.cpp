@@ -4,7 +4,7 @@
 # --- MAKE-TPL-001 C++ ---
 #
 # This converts a standard text file
-# into an Textpatgen C++ Template file.
+# into a Textpatgen C++ Template file.
 #
 ####################################
 */
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
   std::printf("# --- MAKE-TPL-001 C++ ---\n");
   std::printf("#\n");
   std::printf("# This file named %s has been\n",argv[1]);
-  std::printf("# converted to an Textpatgen C++\n");
+  std::printf("# converted to a Textpatgen C++\n");
   std::printf("# Template file.\n");
   std::printf("#\n");
   std::printf("####################################\n");
