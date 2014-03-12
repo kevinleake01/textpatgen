@@ -4,7 +4,7 @@
 # --- MAKE-TPL-001.C ---
 #
 # This converts a standard text file
-# into an Textpatgen C Template file.
+# into a Textpatgen C Template file.
 #
 ####################################
 */
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
   printf("# --- MAKE-TPL-001.C ---\n");
   printf("#\n");
   printf("# This file named %s has\n",argv[1]);
-  printf("# been converted to an Textpatgen C\n");
+  printf("# been converted to a Textpatgen C\n");
   printf("# Template file.\n");
   printf("#\n");
   printf("####################################\n");
