@@ -2,7 +2,7 @@
 ******  MAKE-TPL  ******
 ************************
 
-Make-tpl is a program that converts a standard text file into an
+Make-tpl is a program that converts a standard text file into a
 Textpatgen Template file, and you can then edit this file to
 create Textpatgen Template files for your own use.
 
@@ -40,7 +40,7 @@ D-0090 D-0091 D-0092 D-0093 D-0094 D-0095 D-0096 D-0097 D-0098 D-0099
 
 ---------------------------------------------------------
 
-We will now convert this file into an Textpatgen Template file
+We will now convert this file into a Textpatgen Template file
 named "tpl-file0001.c". This is done by entering this command
 using GCC:
 
@@ -55,7 +55,7 @@ And this is what "tpl-file0001.c" looks like:
 # --- MAKE-TPL-001.C ---
 #
 # This file named tpl-file0001.txt has
-# been converted to an Textpatgen C
+# been converted to a Textpatgen C
 # Template file.
 #
 ####################################
