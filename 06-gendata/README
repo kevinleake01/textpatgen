@@ -1,0 +1,95 @@
+****************************************
+******  TEXTPATGEN GENDATA FILES  ******
+****************************************
+
+The Text Pattern Generator Gendata files are programs that generate random
+data. This comes in very handy if you want your text to be displayed in a
+fixed-width font, when each line of data text will align exactly at the
+correct column position on each line.
+
+Let's now generate a piece of random text data using this command from the
+GCC Compiler:
+
+  gcc tpl-gendata-0002.c; ./a.out 256 16 255 10
+
+This is what you should see:
+
+####################################
+#
+# -- TEXTPATGEN GENERATED RANDOM DATA --
+#
+# -- A generated random data file created from:
+# -- tpl-gendata-0002.c
+#
+# Total number: 256
+# Number in a line: 16
+# Highest printable number: 255
+# Random number seed: 10
+#
+####################################
+a0 0d 26 f5 21 5c 8c 4c f2 98 bc cb 21 3f 2c 97
+87 d0 92 6c 5d 31 28 a6 d9 9e 43 fd 3a ab 93 da
+39 3a 50 5a 96 dc 27 89 76 e3 55 17 a2 01 2e 2b
+d2 c0 17 30 71 be 56 ca 5d 99 c8 98 46 dc f2 7f
+17 44 59 ad a0 00 b6 96 e3 0c 2d 07 0e 5c 32 60
+9c 49 90 8e 87 66 59 e4 01 a2 fc 47 7f 70 46 16
+b4 1f 43 d4 20 f9 6c 83 06 99 8a 93 75 3c f3 13
+05 04 a1 8c 6b fa 72 6c 9d ee 33 9c 5f f8 b2 93
+18 f5 69 b7 6f 55 3c 76 ee 46 89 e4 83 7e f7 88
+82 19 16 6d 93 08 d9 b1 f6 8c 4e d6 85 81 6a 1e
+f6 d3 55 67 29 91 5d 98 58 e6 fc db e4 f4 64 68
+8d f9 55 21 02 30 d2 79 3c a1 cf 42 23 3a 60 99
+8e b5 80 37 c7 dd 4f 20 45 4c 7b 2a c0 5f 12 4e
+5a 68 ef db 18 c2 d4 54 64 a4 96 07 5f 76 21 6d
+ac a1 a4 74 80 74 14 45 40 0f 6f 81 6e 02 cf c8
+6a 3f 25 82 82 f9 56 e6 1f ed 6e 7e e3 8f 6b 90
+
+
+If you take a look at the last number on each line, you should see the number
+'97' on the first line, followed by 'da' on the next line, then '2b' on the
+third line and so forth. If they line up from top to bottom exactly, then you
+are using a fixed-width font.
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+
+For those using Linux, you can also generate random text data using the
+Shell-Gendata files, which are Linux Bash shell scripts. The programs should
+run perfectly in any Linux Distro, as they only require openssl, od, xxd, and
+base64 to be present.
+
+Let us now generate some random text using this command:
+
+  ./shell-gendata-0001.sh 256 x x1 16
+
+This is the result:
+
+#########################################
+#
+# -- SHELL-GENDATA-0001.SH
+#
+# -- Generated data:
+# -- openssl rand 256 | od -A x -t x1 -w16
+#
+#########################################
+000000 e2 d4 55 98 94 82 f3 32 d9 c8 16 09 53 33 bb 00
+000010 7f 75 35 ae 00 f4 50 65 c9 c0 d4 2a 29 63 5b b1
+000020 ef 5d 75 98 47 d8 38 51 be 96 bc 46 15 13 32 93
+000030 ed f4 2f 0c 2c cb 81 a9 24 90 25 3a 8f fa 25 ee
+000040 11 1d e3 0d 7c 9f 95 40 41 f0 d5 26 9f 4d e1 45
+000050 7b 35 79 e2 3a b2 c6 a1 76 73 37 c9 35 0a ac 2c
+000060 04 7b 9f 21 9f 36 43 a7 27 b0 6c 4b aa d9 35 84
+000070 6c f1 a9 5c 08 f8 48 1b e6 9c 69 94 d6 7c be 4b
+000080 52 c2 07 d5 d5 1e 0b 3e dc d1 12 a4 15 10 09 6a
+000090 a0 77 2e 25 65 01 3b ee a9 d9 55 31 b7 7b 82 28
+0000a0 b7 fc 71 a9 5a ea 53 36 15 4e 04 a7 d8 b6 99 bf
+0000b0 9b a2 be 82 40 91 7e 52 03 a4 bb 4f 37 25 a0 a5
+0000c0 ab ba e7 93 1c b5 cd 7f 77 2f 42 48 63 e4 a2 67
+0000d0 ee 92 f8 7c 56 c9 8d 20 83 f4 4d e6 a7 7d 30 e0
+0000e0 b8 e7 eb 88 3b 6b 10 86 e4 d9 aa 9f f9 12 4f 3e
+0000f0 ad 31 50 ab df 99 8a 28 d5 a2 66 7a 79 58 6c 26
+000100
+
+
+
+
