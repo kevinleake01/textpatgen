@@ -1,0 +1,12 @@
+********************
+***  07-SAMPLES  ***
+********************
+
+This directory has various sample files created by The Text Pattern Generator.
+The files have also been converted to other document formats, such as Open Document
+Text (ODT). Also the CSV files created by using this command:
+
+  gcc tpl-csv-001.c; ./a.out "0,99,10" > file0005.csv
+
+can then be used for spreadsheets.
+

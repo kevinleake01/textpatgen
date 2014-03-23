@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="25" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Sun Mar 23 10:20:46 2014
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.date">Sun Mar 23 10:20:46 2014
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="1" edit-time="50" last-saved="1395570046" uid="ad82ec68-b274-11e3-8782-aca4715b5b36">
+<version id="1" started="1395570046" uid="cc7df130-b274-11e3-8782-aca4715b5b36" auto="0" top-xid="25"/>
+</history>
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Nimbus Roman No9 L; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="1">
+<p style="Normal" xid="2"><c props="font-family:Monospace; font-size:10pt">####################################</c></p>
+<p style="Normal" xid="3"><c props="font-family:Monospace; font-size:10pt">#</c></p>
+<p style="Normal" xid="4" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt"># -- TEXTPATGEN GENERATED FILE --</c></p>
+<p style="Normal" xid="5"><c props="font-family:Monospace; font-size:10pt">#</c></p>
+<p style="Normal" xid="6" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt"># -- A generated text file created from:</c></p>
+<p style="Normal" xid="7" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt"># -- tpl-decgen-001.c</c></p>
+<p style="Normal" xid="8"><c props="font-family:Monospace; font-size:10pt">#</c></p>
+<p style="Normal" xid="9" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt"># Start number: 0 ( 0x0 Hex, 00 Octal )</c></p>
+<p style="Normal" xid="10" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt"># Finish number: 99 ( 0x63 Hex, 0143 Octal )</c></p>
+<p style="Normal" xid="11" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt"># Numbers in a line: 10</c></p>
+<p style="Normal" xid="12"><c props="font-family:Monospace; font-size:10pt">#</c></p>
+<p style="Normal" xid="13"><c props="font-family:Monospace; font-size:10pt">####################################</c></p>
+<p style="Normal" xid="14" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0000 D-0001 D-0002 D-0003 D-0004 D-0005 D-0006 D-0007 D-0008 D-0009</c></p>
+<p style="Normal" xid="15" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0010 D-0011 D-0012 D-0013 D-0014 D-0015 D-0016 D-0017 D-0018 D-0019</c></p>
+<p style="Normal" xid="16" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0020 D-0021 D-0022 D-0023 D-0024 D-0025 D-0026 D-0027 D-0028 D-0029</c></p>
+<p style="Normal" xid="17" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0030 D-0031 D-0032 D-0033 D-0034 D-0035 D-0036 D-0037 D-0038 D-0039</c></p>
+<p style="Normal" xid="18" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0040 D-0041 D-0042 D-0043 D-0044 D-0045 D-0046 D-0047 D-0048 D-0049</c></p>
+<p style="Normal" xid="19" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0050 D-0051 D-0052 D-0053 D-0054 D-0055 D-0056 D-0057 D-0058 D-0059</c></p>
+<p style="Normal" xid="20" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0060 D-0061 D-0062 D-0063 D-0064 D-0065 D-0066 D-0067 D-0068 D-0069</c></p>
+<p style="Normal" xid="21" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0070 D-0071 D-0072 D-0073 D-0074 D-0075 D-0076 D-0077 D-0078 D-0079</c></p>
+<p style="Normal" xid="22" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0080 D-0081 D-0082 D-0083 D-0084 D-0085 D-0086 D-0087 D-0088 D-0089</c></p>
+<p style="Normal" xid="23" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt">D-0090 D-0091 D-0092 D-0093 D-0094 D-0095 D-0096 D-0097 D-0098 D-0099</c></p>
+<p style="Normal" xid="24" props="text-align:left; dom-dir:ltr"><c props="font-family:Monospace; font-size:10pt"># -- End of file.</c></p>
+<p style="Normal" xid="25"></p>
+</section>
+</abiword>
