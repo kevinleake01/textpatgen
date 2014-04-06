@@ -16,10 +16,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]);
-int hexgen_dash(long int start, long int finish, long int size);
-int decgen_dash(long int start, long int finish, long int size);
-int hexgen_nodash(long int start, long int finish, long int size);
-int decgen_nodash(long int start, long int finish, long int size);
+void hexgen_dash(long int start, long int finish, long int size);
+void decgen_dash(long int start, long int finish, long int size);
+void hexgen_nodash(long int start, long int finish, long int size);
+void decgen_nodash(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -50,10 +50,10 @@ int main(int argc, char *argv[])
   std::printf("####################################\n");
   decgen_nodash(start, finish, size);
   std::printf("# -- End of file.\n");
-
+  return 0;
 }
 
-int hexgen_dash(long int start, long int finish, long int size)
+void hexgen_dash(long int start, long int finish, long int size)
 {
   std::printf("# -- Generated Hex numbers with dashes.\n");
   for (num=start; num<=finish; num++)
@@ -68,7 +68,7 @@ int hexgen_dash(long int start, long int finish, long int size)
   }
 }
 
-int decgen_dash(long int start, long int finish, long int size)
+void decgen_dash(long int start, long int finish, long int size)
 {
   std::printf("# -- Generated Decimal numbers with dashes.\n");
   for (num=start; num<=finish; num++)
@@ -83,7 +83,7 @@ int decgen_dash(long int start, long int finish, long int size)
   }
 }
 
-int hexgen_nodash(long int start, long int finish, long int size)
+void hexgen_nodash(long int start, long int finish, long int size)
 {
   std::printf("# -- Generated Hex numbers without dashes.\n");
   for (num=start; num<=finish; num++)
@@ -98,7 +98,7 @@ int hexgen_nodash(long int start, long int finish, long int size)
   }
 }
 
-int decgen_nodash(long int start, long int finish, long int size)
+void decgen_nodash(long int start, long int finish, long int size)
 {
   std::printf("# -- Generated Decimal numbers without dashes.\n");
   for (num=start; num<=finish; num++)

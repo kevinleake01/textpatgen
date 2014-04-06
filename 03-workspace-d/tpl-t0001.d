@@ -14,7 +14,7 @@ import std.stdio, std.conv, std.string, std.format;
 
 int num, start, finish;
 
-void main()
+void main(string[] args)
 {
   start=1;  /* Start line */
   finish=25;  /* Finish line */

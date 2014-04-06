@@ -16,7 +16,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]);
-int numgen(long int start, long int finish, long int size);
+void numgen(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -26,7 +26,7 @@ char separator[5]=" ";  /* Separator text */
 int main(int argc, char *argv[])
 {
   start=0;  /* Start number */
-  finish=149; /* Finish number */
+  finish=99; /* Finish number */
   width=10;  /* Numbers in a line */
 
   std::printf("####################################\n");
@@ -41,10 +41,10 @@ int main(int argc, char *argv[])
   std::printf("####################################\n");
   numgen(start, finish, size);
   std::printf("# -- End of file.\n");
-
+  return 0;
 }
 
-int numgen(long int start, long int finish, long int size)
+void numgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {

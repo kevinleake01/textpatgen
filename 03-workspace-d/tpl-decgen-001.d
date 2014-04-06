@@ -37,7 +37,6 @@ void main(string[] args)
   writef("####################################\n");
   decgen(start, finish, size);
   writef("# -- End of file.\n");
-
 }
 
 void decgen(int start, int finish, int size)

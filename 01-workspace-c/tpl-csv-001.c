@@ -14,8 +14,8 @@
 #include <string.h>
 
 int main(int argc, char *argv[]);
-int hexgen(long int start, long int finish, long int size);
-int decgen(long int start, long int finish, long int size);
+void hexgen(long int start, long int finish, long int size);
+void decgen(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -30,9 +30,10 @@ int main(int argc, char *argv[])
   printf("\n");
   decgen(start, finish, size);
   printf("\n");
+  return 0;
 }
 
-int hexgen(long int start, long int finish, long int size)
+void hexgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {
@@ -46,7 +47,7 @@ int hexgen(long int start, long int finish, long int size)
   }
 }
 
-int decgen(long int start, long int finish, long int size)
+void decgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {

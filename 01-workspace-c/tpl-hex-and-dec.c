@@ -14,10 +14,10 @@
 #include <string.h>
 
 int main(int argc, char *argv[]);
-int hexgen_dash(long int start, long int finish, long int size);
-int decgen_dash(long int start, long int finish, long int size);
-int hexgen_nodash(long int start, long int finish, long int size);
-int decgen_nodash(long int start, long int finish, long int size);
+void hexgen_dash(long int start, long int finish, long int size);
+void decgen_dash(long int start, long int finish, long int size);
+void hexgen_nodash(long int start, long int finish, long int size);
+void decgen_nodash(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -48,12 +48,12 @@ int main(int argc, char *argv[])
   printf("####################################\n");
   decgen_nodash(start, finish, size);
   printf("# -- End of file.\n");
-
+  return 0;
 }
 
-int hexgen_dash(long int start, long int finish, long int size)
+void hexgen_dash(long int start, long int finish, long int size)
 {
-  printf("# -- Generated Hex numbers with dashes.\n");
+  prvoidf("# -- Generated Hex numbers with dashes.\n");
   for (num=start; num<=finish; num++)
   {
     for (size=0; size<width-1; size++)
@@ -66,7 +66,7 @@ int hexgen_dash(long int start, long int finish, long int size)
   }
 }
 
-int decgen_dash(long int start, long int finish, long int size)
+void decgen_dash(long int start, long int finish, long int size)
 {
   printf("# -- Generated Decimal numbers with dashes.\n");
   for (num=start; num<=finish; num++)
@@ -81,7 +81,7 @@ int decgen_dash(long int start, long int finish, long int size)
   }
 }
 
-int hexgen_nodash(long int start, long int finish, long int size)
+void hexgen_nodash(long int start, long int finish, long int size)
 {
   printf("# -- Generated Hex numbers without dashes.\n");
   for (num=start; num<=finish; num++)
@@ -96,7 +96,7 @@ int hexgen_nodash(long int start, long int finish, long int size)
   }
 }
 
-int decgen_nodash(long int start, long int finish, long int size)
+void decgen_nodash(long int start, long int finish, long int size)
 {
   printf("# -- Generated Decimal numbers without dashes.\n");
   for (num=start; num<=finish; num++)

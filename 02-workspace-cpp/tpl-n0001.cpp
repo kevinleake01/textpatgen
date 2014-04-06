@@ -16,7 +16,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]);
-int numgen(long int start, long int finish, long int size);
+void numgen(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -41,10 +41,10 @@ int main(int argc, char *argv[])
   std::printf("####################################\n");
   numgen(start, finish, size);
   std::printf("# -- End of file.\n");
-
+  return 0;
 }
 
-int numgen(long int start, long int finish, long int size)
+void numgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {

@@ -17,7 +17,7 @@ int width, size;
 string message="D-";  /* Message text */
 string separator=" ";  /* Separator text */
 
-void main()
+void main(string[] args)
 {
   start=0;  /* Start number */
   finish=99; /* Finish number */
@@ -35,7 +35,6 @@ void main()
   writef("####################################\n");
   numgen(start, finish, size);
   writef("# -- End of file.\n");
-
 }
 
 void numgen(int start, int finish, int size)

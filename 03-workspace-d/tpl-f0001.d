@@ -18,13 +18,13 @@ string message="X-";  /* Message text */
 string separator=" ";  /* Separator text */
 File fp;
 
-void main()
+void main(string[] args)
 {
   start=0;  /* Start number */
   finish=255; /* Finish number */
   width=16;  /* Numbers in a line */
 
-  fp=File("edit-01.txt","w");  /* Open file for writing */
+  fp=File("file0001.txt","w");  /* Open file for writing */
   fp.writef("####################################\n");
   fp.writef("#\n");
   fp.writef("# -- TEXTPATGEN GENERATED FILE --\n");
@@ -38,7 +38,6 @@ void main()
   numgen(start, finish, size);
   fp.writef("# -- End of file.\n");
   fp.close();
-
 }
 
 void numgen(int start, int finish, int size)

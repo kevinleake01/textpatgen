@@ -53,5 +53,6 @@ int main(int argc, char *argv[])
     }
     std::printf("%s\n", message);
   }
+  return 0;
 }
 

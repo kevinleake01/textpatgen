@@ -15,12 +15,12 @@ import std.stdio, std.conv, std.string, std.format;
 int num, start, finish;
 File fp;
 
-void main()
+void main(string[] args)
 {
   start=1;  /* Start line */
   finish=25;  /* Finish line */
 
-  fp=File("edit-02.txt","w");
+  fp=File("file0002.txt","w");
   fp.writef("####################################\n");
   fp.writef("#\n");
   fp.writef("# -- TEXTPATGEN GENERATED FILE --\n");

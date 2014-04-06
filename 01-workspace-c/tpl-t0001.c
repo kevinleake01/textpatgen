@@ -35,6 +35,6 @@ int main(int argc, char *argv[])
     printf("Over The Lazy Dog\n");
   } /* Line of text ends here */
   printf("# -- End of file.\n");
-
+  return 0;
 }
 

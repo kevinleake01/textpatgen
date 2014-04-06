@@ -14,7 +14,7 @@
 #include <string.h>
 
 int main(int argc, char *argv[]);
-int numgen(long int start, long int finish, long int size);
+void numgen(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
   finish=255; /* Finish number */
   width=16;  /* Numbers in a line */
 
-  fp=fopen("edit01.txt","w");  /* Open file for writing */
+  fp=fopen("file0001.txt","w");  /* Open file for writing */
   fprintf(fp,"####################################\n");
   fprintf(fp,"#\n");
   fprintf(fp,"# -- TEXTPATGEN GENERATED FILE --\n");
@@ -42,9 +42,10 @@ int main(int argc, char *argv[])
   numgen(start, finish, size);
   fprintf(fp,"# -- End of file.\n");
   fclose(fp);  /* Close file */
+  return 0;
 }
 
-int numgen(long int start, long int finish, long int size)
+void numgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {

@@ -14,7 +14,7 @@
 #include <string.h>
 
 int main(int argc, char *argv[]);
-int decgen(long int start, long int finish, long int size);
+void decgen(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -28,10 +28,10 @@ int main(int argc, char *argv[])
   width=atol(argv[3]);
 
   decgen(start, finish, size);
-
+  return 0;
 }
 
-int decgen(long int start, long int finish, long int size)
+void decgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {

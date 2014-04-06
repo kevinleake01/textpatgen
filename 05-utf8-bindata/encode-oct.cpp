@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]);
-int gendata(long int start, long int finish, long int size);
+void gendata(long int start, long int finish, long int size);
 
 long int start, finish, size, num, width;
 FILE *fp;
@@ -64,9 +64,10 @@ int main(int argc, char *argv[])
   std::printf("}\n");
   std::printf("\n");
   std::fclose(fp);
+  return 0;
 }
 
-int gendata(long int start, long int finish, long int size)
+void gendata(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {

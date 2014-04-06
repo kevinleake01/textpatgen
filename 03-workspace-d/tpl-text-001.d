@@ -38,6 +38,5 @@ void main(string[] args)
     writef("X%04X:%s:D%04d\n", num, message, num);
   }
   writef("# -- End of file.\n");
-
 }
 

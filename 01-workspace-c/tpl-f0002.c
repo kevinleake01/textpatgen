@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
   start=1;  /* Start line */
   finish=25;  /* Finish line */
 
-  fp=fopen("edit02.txt","w"); /* Open file for writing */
+  fp=fopen("file0002.txt","w"); /* Open file for writing */
   fprintf(fp,"####################################\n");
   fprintf(fp,"#\n");
   fprintf(fp,"# -- TEXTPATGEN GENERATED FILE --\n");
@@ -38,5 +38,6 @@ int main(int argc, char *argv[])
   } /* Line of text ends here */
   fprintf(fp,"# -- End of file.\n");
   fclose(fp);  /* Close file */
+  return 0;
 }
 

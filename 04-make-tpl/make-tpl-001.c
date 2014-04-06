@@ -103,4 +103,5 @@ int main(int argc, char *argv[])
   }
   printf("}\n\n");
   fclose(fp);
+  return 0;
 }

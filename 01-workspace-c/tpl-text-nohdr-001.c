@@ -28,5 +28,6 @@ int main(int argc, char *argv[])
   {
     printf("X%04lX:%s:D%04ld\n", num, message, num);
   }
+  return 0;
 }
 

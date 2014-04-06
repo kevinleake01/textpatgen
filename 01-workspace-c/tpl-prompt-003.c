@@ -51,5 +51,6 @@ int main(int argc, char *argv[])
 
   fprintf(fp, "# -- End of file.\n");
   fclose(fp);
+  return 0;
 }
 

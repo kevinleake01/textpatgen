@@ -14,7 +14,7 @@
 #include <string.h>
 
 int main(int argc, char *argv[]);
-int octgen(long int start, long int finish, long int size);
+void octgen(long int start, long int finish, long int size);
 
 long int num, start, finish;
 long int width, size;
@@ -28,10 +28,10 @@ int main(int argc, char *argv[])
   width=atol(argv[3]);
 
   octgen(start, finish, size);
-
+  return 0;
 }
 
-int octgen(long int start, long int finish, long int size)
+void octgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {

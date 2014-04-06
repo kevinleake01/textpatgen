@@ -57,5 +57,6 @@ int main(int argc, char *argv[])
     randnum5=(unsigned int)(randnum2%randnum3); /* Generate the highest printable number */
     printf("%05u\n", randnum5);  /* Print this number */
   }
+  return 0;
 }
 

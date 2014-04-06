@@ -102,4 +102,5 @@ int main(int argc, char *argv[])
   }
   std::printf("}\n\n");
   std::fclose(fp);
+  return 0;
 }

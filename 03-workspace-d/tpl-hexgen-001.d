@@ -37,7 +37,6 @@ void main(string[] args)
   writef("####################################\n");
   hexgen(start, finish, size);
   writef("# -- End of file.\n");
-
 }
 
 void hexgen(int start, int finish, int size)

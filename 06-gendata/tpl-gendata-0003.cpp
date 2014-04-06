@@ -59,5 +59,6 @@ int main(int argc, char *argv[])
     randnum5=(unsigned int)(randnum2%randnum3); /* Generate the highest printable number */
     std::printf("%04x\n", randnum5);  /* Print this number */
   }
+  return 0;
 }
 

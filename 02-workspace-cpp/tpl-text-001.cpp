@@ -43,6 +43,6 @@ int main(int argc, char *argv[])
     std::printf("X%04lX:%s:D%04ld\n", num, message, num);
   }
   std::printf("# -- End of file.\n");
-
+  return 0;
 }
 

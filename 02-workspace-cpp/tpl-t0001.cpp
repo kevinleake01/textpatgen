@@ -39,5 +39,6 @@ int main(int argc, char *argv[])
     std::cout << "Over The Lazy Dog." << std::endl;
   } /* Line of text ends here */
   std::printf("# -- End of file.\n");
+  return 0;
 }
 
