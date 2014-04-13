@@ -45,11 +45,11 @@ void main(string[] args)
     {
       if (num == finish) break;
       randnum=uniform(randmin, randmax, gen);  /* Get the random number */
-      printf("%05u ", randnum);  /* Print this number */
+      writef("%05u ", randnum);  /* Print this number */
       num++;
     }
     randnum=uniform(randmin, randmax, gen);  /* Get the random number */
-    printf("%05u\n", randnum);  /* Print this number */
+    writef("%05u\n", randnum);  /* Print this number */
   }
 }
 
