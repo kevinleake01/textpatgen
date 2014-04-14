@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
   randseed=strtoll(argv[5],0,10);
 
   std::default_random_engine generator(randseed);
-  std::uniform_int_distribution<int> distribution(randmin,randmax);
+  std::uniform_int_distribution<long long> distribution(randmin,randmax);
 
   std::printf("####################################\n");
   std::printf("#\n");
