@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
   outfile.setf(ios_base::uppercase);  /* Use uppercase for Hex numbers */
 
-  outfile.open("edit02.txt", ios_base::out);  /* Open file for writing */
+  outfile.open("file0002.txt", ios_base::out);  /* Open file for writing */
   outfile << L"####################################\n";
   outfile << L"#\n";
   outfile << L"# -- TEXTPATGEN GENERATED FILE --\n";

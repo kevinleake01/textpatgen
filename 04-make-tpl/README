@@ -9,7 +9,7 @@ create Textpatgen Template files for your own use.
 Shown below is a sample text file named "file0001.txt" which was
 created using GCC in the 01-workspace-c directory using the command:
 
-  gcc tpl-decgen-001.c; ./a.out 0 99 10 > file0001.txt
+  gcc tpl-decgen-0001.c; ./a.out 0 99 10 > file0001.txt
 
 and this is what "file0001.txt" looks like:
 
@@ -18,7 +18,7 @@ and this is what "file0001.txt" looks like:
 # -- TEXTPATGEN GENERATED FILE --
 #
 # -- A generated text file created from:
-# -- tpl-decgen-001.c
+# -- tpl-decgen-0001.c
 #
 # Start number: 0 ( 0x0 Hex, 00 Octal )
 # Finish number: 99 ( 0x63 Hex, 0143 Octal )
@@ -44,7 +44,7 @@ We will now convert this file into a Textpatgen Template file
 named "tpl-file0001.c". This is done by entering this command
 using GCC:
 
-  gcc make-tpl-001.c; ./a.out file0001.txt > tpl-file0001.c
+  gcc make-tpl-0001.c; ./a.out file0001.txt > tpl-file0001.c
 
 And this is what "tpl-file0001.c" looks like:
 
@@ -52,7 +52,7 @@ And this is what "tpl-file0001.c" looks like:
 /*
 ####################################
 #
-# --- MAKE-TPL-001.C ---
+# --- MAKE-TPL-0001.C ---
 #
 # This file named tpl-file0001.txt has
 # been converted to a Textpatgen C
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
   printf("# -- TEXTPATGEN GENERATED FILE --\n");
   printf("#\n");
   printf("# -- A generated text file created from:\n");
-  printf("# -- tpl-decgen-001.c\n");
+  printf("# -- tpl-decgen-0001.c\n");
   printf("#\n");
   printf("# Start number: 0 ( 0x0 Hex, 00 Octal )\n");
   printf("# Finish number: 99 ( 0x63 Hex, 0143 Octal )\n");

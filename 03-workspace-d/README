@@ -2,23 +2,23 @@
 
 The examples shown below will show you how to create
 
-  tpl-decgen-001.d 0 99 10
+  tpl-decgen-0001.d 0 99 10
 
 using the various D compilers as follows:
 -------------------------------------------
 --- Using DMD
 
-dmd -run tpl-decgen-001.d 0 99 10
+dmd -run tpl-decgen-0001.d 0 99 10
   or
-rdmd tpl-decgen-001.d 0 99 10
+rdmd tpl-decgen-0001.d 0 99 10
 -------------------------------------------
 --- Using GCC (GDC)
 
-gdc tpl-decgen-001.d; ./a.out 0 99 10
+gdc tpl-decgen-0001.d; ./a.out 0 99 10
 -------------------------------------------
 --- Using LLVM/LDC
 
-ldc2 tpl-decgen-001.d; ./tpl_decgen_001 0 99 10
+ldc2 tpl-decgen-0001.d; ./tpl_decgen_0001 0 99 10
 -------------------------------------------
 -------------------------------------------
 
@@ -30,7 +30,7 @@ and you should see something like this:
 # -- TEXTPATGEN GENERATED FILE --
 #
 # -- A generated text file created from:
-# -- tpl-decgen-001.d
+# -- tpl-decgen-0001.d
 #
 # Start number: 0 ( 0x0 Hex, 00 Octal )
 # Finish number: 99 ( 0x63 Hex, 0143 Octal )
