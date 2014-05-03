@@ -8,11 +8,11 @@ using the various C++ compilers as follows:
 -------------------------------------------
 --- Using GCC (G++)
 
-g++ tpl-decgen-0001.cpp; ./a.out 0 99 10
+g++ -std=c++11 tpl-decgen-0001.cpp; ./a.out 0 99 10
 -------------------------------------------
 --- Using LLVM/CLANG
 
-clang tpl-decgen-0001.cpp; ./a.out 0 99 10
+clang -std=c++11 tpl-decgen-0001.cpp; ./a.out 0 99 10
 -------------------------------------------
 
 The Textpatgen Generated File is written to standard output,
