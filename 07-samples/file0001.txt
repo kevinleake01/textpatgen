@@ -3,7 +3,7 @@
 # -- TEXTPATGEN GENERATED FILE --
 #
 # -- A generated text file created from:
-# -- tpl-decgen-001.c
+# -- tpl-decgen-0001.c
 #
 # Start number: 0 ( 0x0 Hex, 00 Octal )
 # Finish number: 99 ( 0x63 Hex, 0143 Octal )
