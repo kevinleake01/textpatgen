@@ -26,11 +26,11 @@ int main(int argc, char *argv[])
   printf("Enter file to create: ");
   scanf("%s", filename);
   printf("Start number: ");
-  scanf("%i", &start);
+  scanf("%li", &start);
   printf("Finish number: ");
-  scanf("%i", &finish);
+  scanf("%li", &finish);
   printf("Numbers in a line: ");
-  scanf("%i", &width);
+  scanf("%li", &width);
 
   fp=fopen(filename,"w");
   fprintf(fp, "####################################\n");
