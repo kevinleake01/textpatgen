@@ -19,6 +19,8 @@ gdc tpl-decgen-0001.d; ./a.out 0 99 10
 --- Using LLVM/LDC
 
 ldc2 tpl-decgen-0001.d; ./tpl_decgen_0001 0 99 10
+  or
+ldc2 -run tpl-decgen-0001.d 0 99 10
 -------------------------------------------
 -------------------------------------------
 
