@@ -1,0 +1,34 @@
+--------------------------------
+---
+--- QR CODES AND DATAMATRIX
+---
+--------------------------------
+
+Here are some Text Pattern Generator files that have been made into QR and
+DataMatrix barcodes.
+
+Examples of making QR codes using qrencode:
+
+gcc tpl-hexgen-0001.c; ./a.out 0 255 16 | qrencode -8 -o qr0001.png
+gcc tpl-decgen-0001.c; ./a.out 0 99 10 | qrencode -8 -o qr0002.png
+
+Examples of making DataMatrix barcodes using dmtxwrite (from libdmtx):
+
+gcc tpl-hexgen-0001.c; ./a.out 0 127 8 | dmtxwrite -e 8 -o dmtx0001.png
+gcc tpl-decgen-0001.c; ./a.out 0 99 10 | dmtxwrite -e 8 -o dmtx0002.png
+
+
+-------------------------------------------------------------------
+QR Code links:
+
+http://www.qrcode.com/en/index.html
+http://fukuchi.org/works/qrencode/
+http://en.wikipedia.org/wiki/QR_code
+
+-------------------------------------------------------------------
+DataMatrix links:
+
+http://libdmtx.org/
+http://datenfreihafen.org/projects/iec16022.html
+http://en.wikipedia.org/wiki/Data_Matrix
+
