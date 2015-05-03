@@ -58,6 +58,7 @@ int main(int argc, char* argv[])
     randnum=distribution(generator);  /* Get the random number */
     std::printf("%02lld\n", randnum);  /* Print this number */
   }
+  return 0;
 }
 
 
