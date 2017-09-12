@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 
 void hexgen_dash(long int start, long int finish, long int size)
 {
-  prvoidf("# -- Generated Hex numbers with dashes.\n");
+  printf("# -- Generated Hex numbers with dashes.\n");
   for (num=start; num<=finish; num++)
   {
     for (size=0; size<width-1; size++)
