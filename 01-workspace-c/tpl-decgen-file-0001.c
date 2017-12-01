@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
   fprintf(fp,"#\n");
   fprintf(fp,"# -- TEXTPATGEN GENERATED FILE --\n");
   fprintf(fp,"#\n");
-  fprintf(fp,"# -- tpl-decgen-file-0001.c --\n", buffer1);
+  fprintf(fp,"# -- tpl-decgen-file-0001.c --\n");
   fprintf(fp,"#\n");
   fprintf(fp,"# -- %s --\n", buffer1);
   fprintf(fp,"#\n");
