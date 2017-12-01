@@ -62,6 +62,7 @@ int main(int argc, char *argv[])
   std::fprintf(fp,"####################################\n");
   numgen(start, finish, size);
   std::fprintf(fp,"# -- End of file.\n");
+  std::fclose(fp); /* Close the file */
   return 0;
 }
 
