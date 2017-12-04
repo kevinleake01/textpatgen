@@ -1,0 +1,82 @@
+/*
+####################################
+#
+# -- TEXTPATGEN GENDATA TEMPLATE --
+#
+# Example usage:
+# tpl-gendata-file-0003.cpp 255 16 32767 100
+#
+# The text is written to a timestamped file.
+#
+####################################
+*/
+
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+
+int main(int argc, char *argv[]);
+
+long int num, finish;
+long int width, size;
+int randnum1, randnum2, randnum3, randnum4;
+unsigned int randnum5;
+FILE *fp;
+
+/* Timestamp info */
+time_t timer;
+char buffer1[32], buffer2[32];
+struct tm* tm_info;
+
+int main(int argc, char *argv[])
+{
+  finish=std::atol(argv[1]);
+  width=std::atol(argv[2]);
+  randnum3=std::atoi(argv[3]);
+  randnum4=std::atoi(argv[4]);
+
+  std::srand(randnum4);  /* Generate random number seed */
+
+  std::time(&timer);  /* get the time */
+  tm_info=std::localtime(&timer);
+
+  std::strftime(buffer1, 32, "%Y-%m-%dT%H:%M:%S%z", tm_info); /* Timestamp to print */
+  std::strftime(buffer2, 32, "00_%Y%m%d_%H%M%S.txt", tm_info); /* Timestamp for filename */
+
+  fp=std::fopen(buffer2,"w");  /* Open file for writing */
+  std::fprintf(fp,"####################################\n");
+  std::fprintf(fp,"#\n");
+  std::fprintf(fp,"# -- TEXTPATGEN GENERATED RANDOM DATA --\n");
+  std::fprintf(fp,"# -- C++ VERSION --\n");
+  std::fprintf(fp,"#\n");
+  std::fprintf(fp,"# -- A generated random data file created from:\n");
+  std::fprintf(fp,"# -- tpl-gendata-file-0003.cpp\n");
+  std::fprintf(fp,"#\n");
+  std::fprintf(fp,"# -- %s --\n", buffer1);
+  std::fprintf(fp,"#\n");
+  std::fprintf(fp,"# Total number: %ld\n",finish);
+  std::fprintf(fp,"# Number in a line: %ld\n",width);
+  std::fprintf(fp,"# Highest printable number: %d\n",randnum3);
+  std::fprintf(fp,"# Random number seed: %d\n",randnum4);
+  std::fprintf(fp,"#\n");
+  std::fprintf(fp,"####################################\n");
+
+  for (num=1; num<=finish; num++)
+  {
+    for (size=0; size<width-1; size++)
+    {
+      if (num == finish) break;
+      randnum2=std::rand();  /* Put random number into randnum2 */
+      randnum5=(unsigned int)(randnum2%randnum3); /* Generate the highest printable number */
+      std::fprintf(fp,"%04x ", randnum5);  /* Print this number */
+      num++;
+    }
+    randnum2=std::rand();  /* Put random number into randnum2 */
+    randnum5=(unsigned int)(randnum2%randnum3); /* Generate the highest printable number */
+    std::fprintf(fp,"%04x\n", randnum5);  /* Print this number */
+  }
+  std::fclose(fp);
+  return 0;
+}
+
