@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="31" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Fri Dec  8 21:32:37 2017
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.date">Fri Dec  8 21:32:37 2017
+</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="meta:editing-cycles">1</m>
+<m key="meta:editing-duration">PT1M40S</m>
+</metadata>
+<rdf>
+<t  s="styles.xml"  p="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"  objecttype="1"  xsdtype=""  >http://docs.oasis-open.org/ns/office/1.2/meta/odf#StylesFile</t>
+<t  s="content.xml"  p="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"  objecttype="1"  xsdtype=""  >http://docs.oasis-open.org/ns/office/1.2/meta/odf#ContentFile</t>
+<t  s="manifest.rdf"  p="http://docs.oasis-open.org/ns/office/1.2/meta/pkg#hasPart"  objecttype="1"  xsdtype=""  >styles.xml</t>
+<t  s="manifest.rdf"  p="http://docs.oasis-open.org/ns/office/1.2/meta/pkg#hasPart"  objecttype="1"  xsdtype=""  >content.xml</t>
+<t  s="manifest.rdf"  p="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"  objecttype="1"  xsdtype=""  >http://docs.oasis-open.org/ns/office/1.2/meta/pkg#Document</t>
+</rdf>
+<history version="1" edit-time="58" last-saved="1512768757" uid="2c6bba4c-dc5f-11e7-8afd-902a5aae6d5d">
+<version id="1" started="1512768757" uid="4f8d5756-dc5f-11e7-8afd-902a5aae6d5d" auto="0" top-xid="31"/>
+</history>
+<styles>
+<s type="P" name="Preformatted Text" basedon="Normal" followedby="Preformatted Text" props="margin-top:0in; font-size:10pt; margin-bottom:0in; font-family:Liberation Mono"/>
+<s type="P" name="Normal" props="lang:en-US; default-tab-interval:0.4925in; font-size:12pt; font-family:Liberation Serif; dom-dir:ltr"/>
+<s type="P" name="Caption" basedon="Normal" followedby="Caption" props="margin-top:0.0835in; font-size:12pt; margin-bottom:0.0835in; font-style:italic"/>
+<s type="P" name="Heading" basedon="Normal" followedby="Text body" props="margin-top:0.1665in; keep-with-next:yes; margin-bottom:0.0835in; font-family:Liberation Sans; font-size:14pt"/>
+<s type="P" name="Text body" basedon="Normal" followedby="Text body" props="margin-top:0in; line-height:1.200000; margin-bottom:0.0972in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:0.7874in; page-width:8.5in; page-margin-left:0.7874in; page-orientation:portrait; page-margin-bottom:0.7874in; page-margin-top:0.7874in; page-height:11in">
+<p style="Preformatted Text" xid="2" props="font-size:7pt">####################################</p>
+<p style="Preformatted Text" xid="3" props="font-size:7pt">#</p>
+<p style="Preformatted Text" xid="4" props="font-size:7pt"># -- TEXTPATGEN GENERATED FILE --</p>
+<p style="Preformatted Text" xid="5" props="font-size:7pt">#</p>
+<p style="Preformatted Text" xid="6" props="font-size:7pt"># -- tpl-hexgen-file-0001.c --</p>
+<p style="Preformatted Text" xid="7" props="font-size:7pt">#</p>
+<p style="Preformatted Text" xid="8" props="font-size:7pt"># -- 2017-12-08T18:59:08+0000 --</p>
+<p style="Preformatted Text" xid="9" props="font-size:7pt">#</p>
+<p style="Preformatted Text" xid="10" props="font-size:7pt"># Start number: 0 ( 0x0 Hex, 00 Octal )</p>
+<p style="Preformatted Text" xid="11" props="font-size:7pt"># Finish number: 255 ( 0xFF Hex, 0377 Octal )</p>
+<p style="Preformatted Text" xid="12" props="font-size:7pt"># Numbers in a line: 16</p>
+<p style="Preformatted Text" xid="13" props="font-size:7pt">#</p>
+<p style="Preformatted Text" xid="14" props="font-size:7pt">####################################</p>
+<p style="Preformatted Text" xid="15" props="font-size:7pt">X-0000 X-0001 X-0002 X-0003 X-0004 X-0005 X-0006 X-0007 X-0008 X-0009 X-000A X-000B X-000C X-000D X-000E X-000F</p>
+<p style="Preformatted Text" xid="16" props="font-size:7pt">X-0010 X-0011 X-0012 X-0013 X-0014 X-0015 X-0016 X-0017 X-0018 X-0019 X-001A X-001B X-001C X-001D X-001E X-001F</p>
+<p style="Preformatted Text" xid="17" props="font-size:7pt">X-0020 X-0021 X-0022 X-0023 X-0024 X-0025 X-0026 X-0027 X-0028 X-0029 X-002A X-002B X-002C X-002D X-002E X-002F</p>
+<p style="Preformatted Text" xid="18" props="font-size:7pt">X-0030 X-0031 X-0032 X-0033 X-0034 X-0035 X-0036 X-0037 X-0038 X-0039 X-003A X-003B X-003C X-003D X-003E X-003F</p>
+<p style="Preformatted Text" xid="19" props="font-size:7pt">X-0040 X-0041 X-0042 X-0043 X-0044 X-0045 X-0046 X-0047 X-0048 X-0049 X-004A X-004B X-004C X-004D X-004E X-004F</p>
+<p style="Preformatted Text" xid="20" props="font-size:7pt">X-0050 X-0051 X-0052 X-0053 X-0054 X-0055 X-0056 X-0057 X-0058 X-0059 X-005A X-005B X-005C X-005D X-005E X-005F</p>
+<p style="Preformatted Text" xid="21" props="font-size:7pt">X-0060 X-0061 X-0062 X-0063 X-0064 X-0065 X-0066 X-0067 X-0068 X-0069 X-006A X-006B X-006C X-006D X-006E X-006F</p>
+<p style="Preformatted Text" xid="22" props="font-size:7pt">X-0070 X-0071 X-0072 X-0073 X-0074 X-0075 X-0076 X-0077 X-0078 X-0079 X-007A X-007B X-007C X-007D X-007E X-007F</p>
+<p style="Preformatted Text" xid="23" props="font-size:7pt">X-0080 X-0081 X-0082 X-0083 X-0084 X-0085 X-0086 X-0087 X-0088 X-0089 X-008A X-008B X-008C X-008D X-008E X-008F</p>
+<p style="Preformatted Text" xid="24" props="font-size:7pt">X-0090 X-0091 X-0092 X-0093 X-0094 X-0095 X-0096 X-0097 X-0098 X-0099 X-009A X-009B X-009C X-009D X-009E X-009F</p>
+<p style="Preformatted Text" xid="25" props="font-size:7pt">X-00A0 X-00A1 X-00A2 X-00A3 X-00A4 X-00A5 X-00A6 X-00A7 X-00A8 X-00A9 X-00AA X-00AB X-00AC X-00AD X-00AE X-00AF</p>
+<p style="Preformatted Text" xid="26" props="font-size:7pt">X-00B0 X-00B1 X-00B2 X-00B3 X-00B4 X-00B5 X-00B6 X-00B7 X-00B8 X-00B9 X-00BA X-00BB X-00BC X-00BD X-00BE X-00BF</p>
+<p style="Preformatted Text" xid="27" props="font-size:7pt">X-00C0 X-00C1 X-00C2 X-00C3 X-00C4 X-00C5 X-00C6 X-00C7 X-00C8 X-00C9 X-00CA X-00CB X-00CC X-00CD X-00CE X-00CF</p>
+<p style="Preformatted Text" xid="28" props="font-size:7pt">X-00D0 X-00D1 X-00D2 X-00D3 X-00D4 X-00D5 X-00D6 X-00D7 X-00D8 X-00D9 X-00DA X-00DB X-00DC X-00DD X-00DE X-00DF</p>
+<p style="Preformatted Text" xid="29" props="font-size:7pt">X-00E0 X-00E1 X-00E2 X-00E3 X-00E4 X-00E5 X-00E6 X-00E7 X-00E8 X-00E9 X-00EA X-00EB X-00EC X-00ED X-00EE X-00EF</p>
+<p style="Preformatted Text" xid="30" props="font-size:7pt">X-00F0 X-00F1 X-00F2 X-00F3 X-00F4 X-00F5 X-00F6 X-00F7 X-00F8 X-00F9 X-00FA X-00FB X-00FC X-00FD X-00FE X-00FF</p>
+<p style="Preformatted Text" xid="31" props="font-size:7pt"># -- End of file.</p>
+</section>
+</abiword>
