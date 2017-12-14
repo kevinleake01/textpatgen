@@ -1,0 +1,14 @@
+#########################################
+#
+# -- SHELL-GENDATA-0004.SH
+#
+# -- Generated data:
+# -- openssl rand 256 | base64 -w 64
+#
+#########################################
+vvPsEGB+8jFE50+LQkkJ+Ay4hsqrP8n3XE9yLRHjWsFIyGG4Z0RDkzFiRPAYEnCR
+hB6Fcjk4Zxnpkd1aVqsFwWXLUg5WNrxv+/v00p+k95Wke972qE943srKEl5M5doy
+7t4rYpEl8H+9A3oj5ic11fVRfoY5k36xp+KesH6I2pP8EzQ1TA84ec5qkVUVPNRw
+GCMcFKZ07v8DcG2vBPbRADsYp1km73dDtu4T32uPUo/Q/uYjpD/t/SZrRvoeA0MB
+/jLjz4s0Q/k+a2HlGZkt1hSIkL/hr6jY5/SB4oF/mMgG8tXMkyrK0xDwcKWwNTdD
+kkHo4txRKT0k7xQ8FvC3Tw==
