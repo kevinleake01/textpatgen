@@ -4,7 +4,7 @@
 # -- TEXTPATGEN TEMPLATE --
 #
 # Example usage:
-# tpl-text-0001.c 0 20 "The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog"
+# tpl-text-file-0001.c 0 20 "The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog"
 #
 # The text is written to a timestamped file.
 #

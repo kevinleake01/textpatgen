@@ -1,0 +1,35 @@
+####################################
+#
+# -- TEXTPATGEN GENERATED FILE --
+#
+# -- Created from a Python script.
+#
+# -- 2017-12-19T20:27:52+0000
+#
+####################################
+0000:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0000
+0001:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0001
+0002:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0002
+0003:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0003
+0004:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0004
+0005:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0005
+0006:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0006
+0007:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0007
+0008:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0008
+0009:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0009
+000A:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0010
+000B:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0011
+000C:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0012
+000D:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0013
+000E:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0014
+000F:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0015
+0010:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0016
+0011:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0017
+0012:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0018
+0013:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0019
+0014:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0020
+0015:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0021
+0016:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0022
+0017:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0023
+0018:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:0024
+# -- End of file.
