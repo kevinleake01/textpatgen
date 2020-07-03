@@ -12,6 +12,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <ctime>
 
 using namespace std;
 
@@ -20,8 +21,18 @@ int main(int argc, char *argv[]);
 int c; /* Character */ 
 FILE *fp;  /* File pointer */
 
+/* Timestamp info */
+time_t timer;
+char buffer1[32];
+struct tm* tm_info;
+
 int main(int argc, char *argv[])
 {
+  std::time(&timer);  /* get the time */
+  tm_info=std::localtime(&timer);
+
+  std::strftime(buffer1, 32, "00_%s", tm_info); /* Timestamp for filename */
+    
   fp=std::fopen(argv[1],"r"); /* Open file */
   
   std::printf("/*\n");
@@ -39,7 +50,8 @@ int main(int argc, char *argv[])
   std::printf("#\n");
   std::printf("####################################\n");
   std::printf("*/\n\n");
-  std::printf("#include <iostream>\n\n");
+  std::printf("#include <iostream>\n");
+  std::printf("#include <fstream>\n\n");
   std::printf("using namespace std;\n\n");
   std::printf("// --- Function Prototypes go here ---\n");
   std::printf("int main(int argc, char *argv[]);\n\n");
@@ -47,7 +59,7 @@ int main(int argc, char *argv[])
   std::printf("int main(int argc, char *argv[])\n");
   std::printf("{\n");
   std::printf("  wofstream outfile;\n");
-  std::printf("  outfile.open(\"file0001.txt\", ios_base::out);  /* Open file for writing */\n");
+  std::printf("  outfile.open(\"%s\", ios_base::out);  /* Open file for writing */\n", buffer1);
   std::printf("  outfile << L\""); // Open first outfile statement
 
   while (c != EOF) // Loop until the end of the file
