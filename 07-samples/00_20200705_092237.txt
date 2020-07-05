@@ -1,0 +1,59 @@
+/*
+####################################
+#
+# --- MAKE-TPL-0003 C++ ---
+#
+# This file named 00_1593939612.txt has been
+# converted to a Textpatgen C++
+# Template file.
+#
+# The text is written to a named file.
+#
+####################################
+*/
+
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+// --- Function Prototypes go here ---
+int main(int argc, char *argv[]);
+
+// --- Global variables go here ---
+
+int main(int argc, char *argv[])
+{
+  ofstream outfile;
+  outfile.open("00_1593940915", ios_base::out);  /* Open file for writing */
+  outfile << "####################################" << std::endl;
+  outfile << "#" << std::endl;
+  outfile << "# -- TEXTPATGEN GENERATED FILE --" << std::endl;
+  outfile << "#" << std::endl;
+  outfile << "# -- tpl-hexgen-file-0007.c --" << std::endl;
+  outfile << "#" << std::endl;
+  outfile << "# -- Epoch Time: 1593939612" << std::endl;
+  outfile << "#" << std::endl;
+  outfile << "# Start number: 0 ( 0x0 Hex, 00 Octal )" << std::endl;
+  outfile << "# Finish number: 109 ( 0x6D Hex, 0155 Octal )" << std::endl;
+  outfile << "# Numbers in a line: 9" << std::endl;
+  outfile << "#" << std::endl;
+  outfile << "####################################" << std::endl;
+  outfile << "00 01 02 03 04 05 06 07 08" << std::endl;
+  outfile << "09 0A 0B 0C 0D 0E 0F 10 11" << std::endl;
+  outfile << "12 13 14 15 16 17 18 19 1A" << std::endl;
+  outfile << "1B 1C 1D 1E 1F 20 21 22 23" << std::endl;
+  outfile << "24 25 26 27 28 29 2A 2B 2C" << std::endl;
+  outfile << "2D 2E 2F 30 31 32 33 34 35" << std::endl;
+  outfile << "36 37 38 39 3A 3B 3C 3D 3E" << std::endl;
+  outfile << "3F 40 41 42 43 44 45 46 47" << std::endl;
+  outfile << "48 49 4A 4B 4C 4D 4E 4F 50" << std::endl;
+  outfile << "51 52 53 54 55 56 57 58 59" << std::endl;
+  outfile << "5A 5B 5C 5D 5E 5F 60 61 62" << std::endl;
+  outfile << "63 64 65 66 67 68 69 6A 6B" << std::endl;
+  outfile << "6C 6D" << std::endl;
+  outfile << "# -- End of file." << std::endl;
+  outfile << "" << std::endl;
+  outfile.close();  /* Close file */
+}
+

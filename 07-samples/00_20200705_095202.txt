@@ -1,0 +1,42 @@
+####################################
+#
+# -- TEXTPATGEN GENERATED RANDOM DATA --
+# -- C++ VERSION --
+#
+# -- A generated random data file created from:
+# -- tpl-gendata-file-0002.cpp
+#
+# -- 2020-07-05T09:52:02+0000 --
+#
+# Total number: 276
+# Number in a line: 11
+# Highest printable number: 255
+# Random number seed: 198
+#
+####################################
+de 6f 0c 11 88 cf d5 d8 96 12 80
+44 29 0f f0 bd da bd de 28 9d 84
+1e 55 9f 79 d5 50 fe 53 e0 dd c2
+6c 6e ca 3d 44 24 d3 d5 a4 18 7f
+b3 88 bc 0e 46 9b b5 63 20 54 39
+3f cd 0f 90 cc 62 f0 2b a4 5d 99
+6f 1a de 93 6d 34 b8 05 b3 6c 8d
+70 fa d3 0c 30 b7 ac 84 f0 6b 53
+7f fb 9f e1 6c ca 06 ca e4 f4 e4
+43 89 d2 77 c1 d7 2c ad 66 9c a8
+b9 29 d9 71 55 5e e1 c0 31 61 bd
+d1 c2 2a 1c c8 74 01 be d9 44 c7
+ac bc 89 84 68 37 6a 05 60 a4 ad
+3a 95 03 18 78 c4 4a 59 82 9b 1d
+2c b7 65 21 39 24 fa 7d 6b 27 b9
+f4 2b 22 ac 96 a7 0d ba 55 c6 50
+59 5e 48 1e a8 a2 20 44 bf cb 7c
+25 ec b5 c9 67 b2 35 8e 6d aa ba
+8f d6 d0 37 63 8b 8d 2a 5b 66 88
+a4 04 b1 47 24 75 86 6f 71 ab dc
+27 f4 44 da aa d3 c7 55 0e 57 ab
+5e 0f 0f e9 1c b8 c4 82 c0 69 86
+72 30 2a 68 b6 19 d9 e2 f5 81 d7
+3b 5c 82 8e a3 57 1c fa 03 7a 89
+91 e3 a5 4a a8 a7 0c 92 ad fd c2
+57
