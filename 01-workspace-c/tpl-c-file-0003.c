@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
   num=0;
   for (length=0; length<25; length++)
   {
-    fprintf(fp,"%04X:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:%04d\n", num);
+    fprintf(fp,"%04X:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:%04d\n", num, num);
     num++;
   }
       
