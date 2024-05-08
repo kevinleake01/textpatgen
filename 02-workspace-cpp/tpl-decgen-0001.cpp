@@ -13,8 +13,6 @@
 #include <cstdlib>
 #include <cstring>
 
-using namespace std;
-
 int main(int argc, char *argv[]);
 void decgen(long int start, long int finish, long int size);
 
@@ -25,9 +23,9 @@ char separator[5]=" ";  /* Separator text */
 
 int main(int argc, char *argv[])
 {
-  start=atol(argv[1]);
-  finish=atol(argv[2]);
-  width=atol(argv[3]);
+  start=std::atol(argv[1]);
+  finish=std::atol(argv[2]);
+  width=std::atol(argv[3]);
 
   std::printf("####################################\n");
   std::printf("#\n");

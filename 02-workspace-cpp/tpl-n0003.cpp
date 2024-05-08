@@ -12,8 +12,6 @@
 #include <iostream>
 #include <iomanip>
 
-using namespace std;
-
 int main(int argc, char *argv[]);
 void numgen(long int start, long int finish, long int size);
 
@@ -28,18 +26,18 @@ int main(int argc, char *argv[])
   finish=255; /* Finish number */
   width=16;  /* Numbers in a line */
 
-  std::cout.setf(ios_base::uppercase);  /* Use uppercase for Hex numbers */
+  std::cout.setf(std::ios_base::uppercase);  /* Use uppercase for Hex numbers */
 
   std::cout << "####################################\n";
   std::cout << "#\n";
   std::cout << "# -- TEXTPATGEN GENERATED FILE --\n";
   std::cout << "# -- C++ VERSION --\n";
   std::cout << "#\n";
-  std::cout << "# Start number: " << setbase(10) << start << " ( 0x" << setbase(16) << start;
-  std::cout << " Hex 0" << setbase(8) << start << " Octal )\n"; 
-  std::cout << "# Finish number: " << setbase(10) << finish << " ( 0x" << setbase(16) << finish;
-  std::cout << " Hex 0" << setbase(8) << finish << " Octal )\n";
-  std::cout << "# Numbers in a line: " << setbase(10) << width << endl;
+  std::cout << "# Start number: " << std::setbase(10) << start << " ( 0x" << std::setbase(16) << start;
+  std::cout << " Hex 0" << std::setbase(8) << start << " Octal )\n"; 
+  std::cout << "# Finish number: " << std::setbase(10) << finish << " ( 0x" << std::setbase(16) << finish;
+  std::cout << " Hex 0" << std::setbase(8) << finish << " Octal )\n";
+  std::cout << "# Numbers in a line: " << std::setbase(10) << width << std::endl;
   std::cout << "#\n";
   std::cout << "####################################\n";
   numgen(start, finish, size);
@@ -55,12 +53,12 @@ void numgen(long int start, long int finish, long int size)
     {
       if (num == finish) break;
       std::cout << message;
-      std::cout << setbase(16) << setw(4) << setfill('0') << num;  /* Number base format */
+      std::cout << std::setbase(16) << std::setw(4) << std::setfill('0') << num;  /* Number base format */
       std::cout << separator;
       num++;
     }
     std::cout <<  message;
-    std::cout << setbase(16) << setw(4) << setfill('0') << num << endl;  /* Number base format */
+    std::cout << std::setbase(16) << std::setw(4) << std::setfill('0') << num << std::endl;  /* Number base format */
   }
 }
 

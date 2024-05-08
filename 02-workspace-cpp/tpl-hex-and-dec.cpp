@@ -13,8 +13,6 @@
 #include <cstdlib>
 #include <cstring>
 
-using namespace std;
-
 int main(int argc, char *argv[]);
 void hexgen_dash(long int start, long int finish, long int size);
 void decgen_dash(long int start, long int finish, long int size);

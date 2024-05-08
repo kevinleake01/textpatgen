@@ -19,7 +19,7 @@
 #include <ctime>
 #include <random>
 
-long long int num, finish, width, size, randnum, randmin, randmax, randseed;
+long int num, finish, width, size, randnum, randmin, randmax, randseed;
 FILE *fp;
 
 /* Timestamp info */
@@ -29,15 +29,15 @@ struct tm* tm_info;
 
 int main(int argc, char* argv[])
 {
-  finish=std::strtoll(argv[1],0,10);
-  width=std::strtoll(argv[2],0,10);
-  randmin=std::strtoll(argv[3],0,10);
-  randmax=std::strtoll(argv[4],0,10);
-  randseed=std::strtoll(argv[5],0,10);
+  finish=std::strtol(argv[1],0,10);
+  width=std::strtol(argv[2],0,10);
+  randmin=std::strtol(argv[3],0,10);
+  randmax=std::strtol(argv[4],0,10);
+  randseed=std::strtol(argv[5],0,10);
 
   /* Random number generator, requires C++11 or later */
   std::default_random_engine generator(randseed);
-  std::uniform_int_distribution<long long> distribution(randmin,randmax);
+  std::uniform_int_distribution<long> distribution(randmin,randmax);
 
   std::time(&timer);  /* get the time */
   tm_info=std::localtime(&timer);
@@ -58,11 +58,11 @@ int main(int argc, char* argv[])
   std::fprintf(fp,"# -- Created: %s\n", buffer1);
   std::fprintf(fp,"# -- Epoch Time: %s\n", buffer2);
   std::fprintf(fp,"#\n");
-  std::fprintf(fp,"# Total number: %lld\n",finish);
-  std::fprintf(fp,"# Number in a line: %lld\n",width);
-  std::fprintf(fp,"# Lowest printable number: %lld\n",randmin);
-  std::fprintf(fp,"# Highest printable number: %lld\n",randmax);
-  std::fprintf(fp,"# Random number seed: %lld\n",randseed);
+  std::fprintf(fp,"# Total number: %ld\n",finish);
+  std::fprintf(fp,"# Number in a line: %ld\n",width);
+  std::fprintf(fp,"# Lowest printable number: %ld\n",randmin);
+  std::fprintf(fp,"# Highest printable number: %ld\n",randmax);
+  std::fprintf(fp,"# Random number seed: %ld\n",randseed);
   std::fprintf(fp,"#\n");
   std::fprintf(fp,"####################################\n");
 
@@ -72,11 +72,11 @@ int main(int argc, char* argv[])
     {
       if (num == finish) break;
       randnum=distribution(generator);  /* Get the random number */
-      std::fprintf(fp,"%02llx ", randnum);  /* Print this number */
+      std::fprintf(fp,"%02lx ", randnum);  /* Print this number */
       num++;
     }
     randnum=distribution(generator);  /* Get the random number */
-    std::fprintf(fp,"%02llx\n", randnum);  /* Print this number */
+    std::fprintf(fp,"%02lx\n", randnum);  /* Print this number */
   }
   fclose(fp);
   return 0;

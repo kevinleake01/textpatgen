@@ -16,10 +16,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]);
-void numgen(long int start, long int finish, long int size);
+void numgen(long int start, long int finish, long int size1);
 
 long int num, start, finish;
-long int width, size;
+long int width, size1;
 ofstream outfile;
 char message[5]="X-";  /* Message text */
 char separator[5]=" ";  /* Separator text */
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
   outfile << "# Numbers in a line: " << setbase(10) << width << endl;
   outfile << "#\n";
   outfile << "####################################\n";
-  numgen(start, finish, size);
+  numgen(start, finish, size1);
   outfile << "# -- End of file.\n";
   outfile.close();  /* Close file */
   return 0;
@@ -55,7 +55,7 @@ void numgen(long int start, long int finish, long int size)
 {
   for (num=start; num<=finish; num++)
   {
-    for (size=0; size<width-1; size++)
+    for (size1=0; size1<width-1; size1++)
     {
       if (num == finish) break;
       outfile << message;

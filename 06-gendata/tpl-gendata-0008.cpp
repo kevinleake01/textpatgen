@@ -16,20 +16,18 @@
 #include <cstring>
 #include <random>
 
-using namespace std;
-
-long long int num, finish, width, size, randnum, randmin, randmax, randseed;
+long int num, finish, width, size, randnum, randmin, randmax, randseed;
 
 int main(int argc, char* argv[])
 {
-  finish=strtoll(argv[1],0,10);
-  width=strtoll(argv[2],0,10);
-  randmin=strtoll(argv[3],0,10);
-  randmax=strtoll(argv[4],0,10);
-  randseed=strtoll(argv[5],0,10);
+  finish=std::strtol(argv[1],0,10);
+  width=std::strtol(argv[2],0,10);
+  randmin=std::strtol(argv[3],0,10);
+  randmax=std::strtol(argv[4],0,10);
+  randseed=std::strtol(argv[5],0,10);
 
   std::default_random_engine generator(randseed);
-  std::uniform_int_distribution<long long> distribution(randmin,randmax);
+  std::uniform_int_distribution<long> distribution(randmin,randmax);
 
   std::printf("####################################\n");
   std::printf("#\n");
@@ -38,11 +36,11 @@ int main(int argc, char* argv[])
   std::printf("# -- A generated random data file created from:\n");
   std::printf("# -- tpl-gendata-0008.cpp\n");
   std::printf("#\n");
-  std::printf("# Total number: %lld\n",finish);
-  std::printf("# Number in a line: %lld\n",width);
-  std::printf("# Lowest printable number: %lld\n",randmin);
-  std::printf("# Highest printable number: %lld\n",randmax);
-  std::printf("# Random number seed: %lld\n",randseed);
+  std::printf("# Total number: %ld\n",finish);
+  std::printf("# Number in a line: %ld\n",width);
+  std::printf("# Lowest printable number: %ld\n",randmin);
+  std::printf("# Highest printable number: %ld\n",randmax);
+  std::printf("# Random number seed: %ld\n",randseed);
   std::printf("#\n");
   std::printf("####################################\n");
 
@@ -52,11 +50,11 @@ int main(int argc, char* argv[])
     {
       if (num == finish) break;
       randnum=distribution(generator);  /* Get the random number */
-      std::printf("%02lld ", randnum);  /* Print this number */
+      std::printf("%02ld ", randnum);  /* Print this number */
       num++;
     }
     randnum=distribution(generator);  /* Get the random number */
-    std::printf("%02lld\n", randnum);  /* Print this number */
+    std::printf("%02ld\n", randnum);  /* Print this number */
   }
   return 0;
 }
