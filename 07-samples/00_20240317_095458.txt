@@ -1,0 +1,20 @@
+﻿####################################
+#
+# -- TEXTPATGEN GENERATED FILE --
+#
+# -- tpl-hexgen-file-0001.c --
+#
+# -- 2024-03-17T09:54:58+0000 --
+#
+# Start number: 0 ( 0x0 Hex, 00 Octal )
+# Finish number: 28 ( 0x1C Hex, 034 Octal )
+# Numbers in a line: 5
+#
+####################################
+X-0000 X-0001 X-0002 X-0003 X-0004
+X-0005 X-0006 X-0007 X-0008 X-0009
+X-000A X-000B X-000C X-000D X-000E
+X-000F X-0010 X-0011 X-0012 X-0013
+X-0014 X-0015 X-0016 X-0017 X-0018
+X-0019 X-001A X-001B X-001C
+# -- End of file.
