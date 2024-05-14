@@ -1,0 +1,37 @@
+####################################
+#
+# -- TEXTPATGEN GENERATED FILE --
+# -- C++ VERSION --
+#
+# -- tpl-text-ide-0001.cpp --
+#
+# -- Created: 2024-05-14T10:23:55-0500
+# -- Epoch Time: 1715700235
+#
+# Start number: 0 ( 0x0 Hex, 00 Octal )
+# Finish number: 20 ( 0x14 Hex, 024 Octal )
+# Message text: "The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog"
+#
+####################################
+X0000:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0000
+X0001:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0001
+X0002:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0002
+X0003:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0003
+X0004:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0004
+X0005:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0005
+X0006:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0006
+X0007:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0007
+X0008:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0008
+X0009:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0009
+X000A:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0010
+X000B:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0011
+X000C:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0012
+X000D:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0013
+X000E:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0014
+X000F:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0015
+X0010:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0016
+X0011:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0017
+X0012:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0018
+X0013:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0019
+X0014:The_Quick_Brown_Fox_Jumps_over_the_Lazy_Dog:D0020
+# -- End of file.

@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
   printf("# -- TEXTPATGEN GENERATED FILE --\n");
   printf("#\n");
   printf("# -- A generated text file created from:\n");
-  printf("# -- tpl-decgen-001.c\n");
+  printf("# -- tpl-decgen-0001.c\n");
   printf("#\n");
   printf("# Start number: 0 ( 0x0 Hex, 00 Octal )\n");
   printf("# Finish number: 99 ( 0x63 Hex, 0143 Octal )\n");

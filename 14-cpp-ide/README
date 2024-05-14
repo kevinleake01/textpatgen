@@ -1,0 +1,19 @@
+----- 14-CPP-IDE -----
+
+This section allows you to create Text Pattern Generator files by using
+a C++ Integrated Development Environment, also known as an IDE. This means
+you can do this from tablets and smartphones that often do not have access
+to a C++ Compiler.
+
+All the Textpatgen Template files listed here do not require command line
+arguments, and there is also no writing to files. However, you may have to
+do some Cut, Copy, and Paste instructions to save your programs.
+
+A list of some C++ IDE programs:
+
+https://www.onlinegdb.com/
+https://www.jdoodle.com/
+https://cpp.sh/
+https://coliru.stacked-crooked.com/
+https://arnemertz.github.io/online-compilers/
+

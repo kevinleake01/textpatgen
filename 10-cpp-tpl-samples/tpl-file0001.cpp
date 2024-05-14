@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
   std::cout << "# -- TEXTPATGEN GENERATED FILE --" << std::endl;
   std::cout << "#" << std::endl;
   std::cout << "# -- A generated text file created from:" << std::endl;
-  std::cout << "# -- tpl-decgen-001.c" << std::endl;
+  std::cout << "# -- tpl-decgen-0001.c" << std::endl;
   std::cout << "#" << std::endl;
   std::cout << "# Start number: 0 ( 0x0 Hex, 00 Octal )" << std::endl;
   std::cout << "# Finish number: 99 ( 0x63 Hex, 0143 Octal )" << std::endl;
