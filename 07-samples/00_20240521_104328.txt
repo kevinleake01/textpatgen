@@ -1,0 +1,24 @@
+####################################
+#
+# -- TEXTPATGEN GENERATED RANDOM DATA --
+#
+# -- A generated random data file created from:
+# -- tpl-gendata-ide-0008.cpp
+#
+# Total number: 100
+# Number in a line: 10
+# Lowest printable number: 0
+# Highest printable number: 99
+# Random number seed: 100
+#
+####################################
+00 15 56 86 27 89 70 88 92 46
+35 94 09 45 34 97 11 76 34 68
+74 67 89 04 61 69 19 39 59 11
+03 21 24 74 60 82 26 64 10 53
+70 25 26 33 15 26 16 47 27 64
+64 77 77 49 92 65 65 76 92 05
+46 45 62 90 66 39 61 07 77 37
+07 41 70 38 97 44 09 00 15 02
+78 53 58 84 82 95 62 54 94 85
+31 63 10 32 11 59 20 15 93 53
