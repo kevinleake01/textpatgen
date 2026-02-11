@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
   std::fprintf(fp,"# -- C++ VERSION --\n");
   std::fprintf(fp,"#\n");
   std::fprintf(fp,"# -- A generated random data file created from:\n");
-  std::fprintf(fp,"# -- tpl-hex-ranlux48-base.cpp\n");
+  std::fprintf(fp,"# -- tpl-hex-knuth-b.cpp\n");
   std::fprintf(fp,"#\n");
   std::fprintf(fp,"# -- %s --\n", buffer1);
   std::fprintf(fp,"#\n");
