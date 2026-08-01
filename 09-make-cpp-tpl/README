@@ -5,13 +5,13 @@
 Make-cpp-tpl is a program that converts a standard text file into C
 and C++ Template files.
 
-Let us now create an example file, using "file0001.txt" as the text
-file and "tpl-file0001.c" as the C Template file, which is created by
+Let us now create an example file, using "00_20260504_170325.txt" as the text
+file and "tpl-00_20260504_170325.c" as the C Template file, which is created by
 using this command:
 
-  gcc make-c-tpl-0001.c; ./a.out file0001.txt > tpl-file0001.c
+  gcc make-c-tpl-0001.c; ./a.out 00_20260504_170325.txt > tpl-00_20260504_170325.c
 
-This is what "tpl-file0001.c" should look like:
+This is what "tpl-00_20260504_170325.c" should look like:
 
 
 /*
@@ -19,7 +19,7 @@ This is what "tpl-file0001.c" should look like:
 #
 # --- MAKE-C-TPL-0001.C ---
 #
-# This file named file0001.txt has been
+# This file named 00_20260504_170325.txt has been
 # converted to a C Template file.
 #
 ####################################
@@ -27,7 +27,7 @@ This is what "tpl-file0001.c" should look like:
 
 /*
 ===========================================================
------ file0001.txt -----
+----- 00_20260504_170325.txt -----
 
 Written in ISO/IEC 9899:2011 standard C
 ===========================================================
@@ -78,14 +78,14 @@ int main(int argc, char *argv[])
 
 To return the text file back to its original state, simply use this command:
 
-  gcc tpl-file0001.c; ./a.out > file0001.txt
+  gcc tpl-00_20260504_170325.c; ./a.out > 00_20260504_170325.txt
 
 ----------------------------------------------------------------------------------
 
 In some of the C and C++ Template files, you may see that it uses "wchar_t" data type
 which is very useful for Unicode support, and in other Template files, you may see
-that the text is written to a named file. For example, "make-c-tpl-0002.c" will
-automatically save the original file back to its original state as "file0002.txt".
+that the text is written to a file named "00_.txt". Please change this filename to
+suit your personal preferences.  
 
 ----------------------------------------------------------------------------------
 

@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
   fprintf(fp,"#\n");
   fprintf(fp,"####################################\n");
   srand(100); /* Random number seed */
-  maxnum=32767; /*Highest printable number */
+  maxnum=99999; /*Highest printable number */
   num=rand() % maxnum; /* Get random number */
   for (length=0; length<10; length++)
   {

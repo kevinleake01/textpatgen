@@ -4,7 +4,7 @@
 
 UTF-8 Bindata is a unique program that can help you explore and debug text
 and binary files. We will now show you some examples. The first is a text
-file named "file0001.txt" created by the Text Pattern Generator (Textpatgen):
+file named "00_20260504_164756.txt" created by the Text Pattern Generator:
 
 ---------------------------------------------------------------------------
 
@@ -38,9 +38,9 @@ D-0090 D-0091 D-0092 D-0093 D-0094 D-0095 D-0096 D-0097 D-0098 D-0099
 We will now convert this file into a UTF-8 Bindata encoded file, by
 entering this command:
 
-  gcc encode-hex.c; ./a.out file0001.txt 1006 10 > file0001.c
+  gcc encode-hex.c; ./a.out 00_20260504_164756.txt 1006 10 > 00_20260504_164756.c
 
-and this is the resulting file, "file0001.c":
+and this is the resulting file, "00_20260504_164756.c":
 
 --------------------------------------------------------------------------
 
@@ -49,14 +49,14 @@ and this is the resulting file, "file0001.c":
 #
 # --- UTF-8 BINDATA ENCODED FILE ---
 #
-# Filename: file0001.txt
+# Filename: 00_20260504_164756.txt
 # Number of bytes read: 1006
 # Number of bytes in a line: 10
 #
 # To decode this file back to its original
 # state, use this command:
 #
-# gcc <this_filename>; ./a.out file0001.txt 1006
+# gcc <this_filename>; ./a.out 00_20260504_164756.txt 1006
 #
 ####################################
 */
@@ -184,7 +184,7 @@ int main(int argc, char *argv[])
 --------------------------------------------------------------------------
 
 If you take a look at the filedata[] statement, you will see that it contains
-the entire contents of "file0001.txt". It has 1006 bytes in total, and the data
+the entire contents of "00_20260504_164756.txt". It has 1006 bytes in total, and the data
 is arranged with 10 bytes in a line of text. At the end of filedata[], you
 will see a "0xFFFFFFFF". This indicates that the End-of-file has been reached,
 and you will need to delete this "0xFFFFFFFF" manually, otherwise errors may
@@ -194,14 +194,14 @@ automatically.
 To decode this file back to its original state, all you have to do is to use
 this command:
 
-  gcc file0001.c; ./a.out file0001.txt 1006
+  gcc 00_20260504_164756.c; ./a.out 00_20260504_164756.txt 1006
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 
-We will now take a look at another file named "file0001.bin". This is a pure
-binary file created by using an "openssl rand 265 -out file0001.bin" command.
-This file can be displayed by using "od -t x1 -w16 file0001.bin":
+We will now take a look at another file named "00_20260504_164756.bin". This is a pure
+binary file created by using an "openssl rand 265 -out 00_20260504_164756.bin" command.
+This file can be displayed by using "od -t x1 -w16 00_20260504_164756.bin":
 
 0000000 f7 f4 7b 0e 83 01 0d ed 1a 5b 81 2d b7 73 e3 c3
 0000020 8c 19 a8 61 92 ed f2 b7 4f a8 b7 ac e2 ca 76 6c
@@ -223,7 +223,7 @@ This file can be displayed by using "od -t x1 -w16 file0001.bin":
 0000411
 
 Or we could display a base-64 version of this file, using the command
-"base64 -w 64 file0001.bin" and this is what you should see:
+"base64 -w 64 00_20260504_164756.bin" and this is what you should see:
 
 9/R7DoMBDe0aW4Ett3Pjw4wZqGGS7fK3T6i3rOLKdmzMZVTnKReDzjYlWipfQCd3
 lQ9Y0P8R8y5mzHC7Bw9aJ6IvtPScZ0oQ18tQUd//7HsrxExsqu2N24URVt+0xJk1
@@ -237,9 +237,9 @@ KlUqA9h/NwJetDtOtBkIq/Bqi/uu8c5Q8w==
 
 Once again, it was converted to UTF-8 Bindata by this command:
 
-  gcc encode-hex.c; ./a.out file0001.bin 265 10 > file0001.c
+  gcc encode-hex.c; ./a.out 00_20260504_164756.bin 265 10 > 00_20260504_164756.c
 
-and this is what "file0001.c" looks like:
+and this is what "00_20260504_164756.c" looks like:
 
 --------------------------------------------------------------------------
 
@@ -248,14 +248,14 @@ and this is what "file0001.c" looks like:
 #
 # --- UTF-8 BINDATA ENCODED FILE ---
 #
-# Filename: file0001.bin
+# Filename: 00_20260504_164756.bin
 # Number of bytes read: 265
 # Number of bytes in a line: 10
 #
 # To decode this file back to its original
 # state, use this command:
 #
-# gcc <this_filename>; ./a.out file0001.bin 265
+# gcc <this_filename>; ./a.out 00_20260504_164756.bin 265
 #
 ####################################
 */
@@ -311,10 +311,10 @@ int main(int argc, char *argv[])
 
 If you take a look at the last line of filedata[], the End-of-file
 "0xFFFFFFFF" makes its appearance once again, so you will need to delete
-it, and to restore "file0001.bin" back to its original binary status, just
+it, and to restore "00_20260504_164756.bin" back to its original binary status, just
 enter this command:
 
-  gcc file0001.c; ./a.out file0001.bin 265
+  gcc 00_20260504_164756.c; ./a.out 00_20260504_164756.bin 265
 
 --------------------------------------------------------------------------
 

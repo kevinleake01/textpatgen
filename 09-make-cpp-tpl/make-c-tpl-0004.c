@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
   printf("int main(int argc, char *argv[])\n");
   printf("{\n");
   printf("\tFILE *fp\n");
-  printf("\tfp=fopen(\"file0004.txt\",\"w\"); /* Open file for writing */\n");
+  printf("\tfp=fopen(\"00_.txt\",\"w\"); /* Open file for writing */\n");
   printf("\n");
   printf("\tfprintf(fp,\""); /* Open first fprintf statement */
 

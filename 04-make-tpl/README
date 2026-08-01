@@ -6,12 +6,12 @@ Make-tpl is a program that converts a standard text file into a
 Textpatgen Template file, and you can then edit this file to
 create Textpatgen Template files for your own use.
 
-Shown below is a sample text file named "file0001.txt" which was
+Shown below is a sample text file named "00_20260504_162518.txt" which was
 created using GCC in the 01-workspace-c directory using the command:
 
-  gcc tpl-decgen-0001.c; ./a.out 0 99 10 > file0001.txt
+  gcc tpl-decgen-0001.c; ./a.out 0 99 10 > 00_20260504_162518.txt
 
-and this is what "file0001.txt" looks like:
+and this is what "00_20260504_162518.txt" looks like:
 
 ####################################
 #
@@ -41,12 +41,12 @@ D-0090 D-0091 D-0092 D-0093 D-0094 D-0095 D-0096 D-0097 D-0098 D-0099
 ---------------------------------------------------------
 
 We will now convert this file into a Textpatgen Template file
-named "tpl-file0001.c". This is done by entering this command
+named "tpl-00_20260504_162518.c". This is done by entering this command
 using GCC:
 
-  gcc make-tpl-0001.c; ./a.out file0001.txt > tpl-file0001.c
+  gcc make-tpl-0001.c; ./a.out 00_20260504_162518.txt > tpl-00_20260504_162518.c
 
-And this is what "tpl-file0001.c" looks like:
+And this is what "tpl-00_20260504_162518.c" looks like:
 
 
 /*
@@ -54,7 +54,7 @@ And this is what "tpl-file0001.c" looks like:
 #
 # --- MAKE-TPL-0001.C ---
 #
-# This file named tpl-file0001.txt has
+# This file named 00_20260504_162518.txt has
 # been converted to a Textpatgen C
 # Template file.
 #

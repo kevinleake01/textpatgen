@@ -14,7 +14,7 @@ gcc tpl-decgen-0001.c; ./a.out 0 99 10
 
 clang tpl-decgen-0001.c; ./a.out 0 99 10
 -------------------------------------------
---- Using TCC (http://bellard.org/tcc/)
+--- Using TCC (https://bellard.org/tcc/)
 
 tcc -run tpl-decgen-0001.c 0 99 10
 -------------------------------------------

@@ -3,7 +3,7 @@
 #
 # --- MAKE-CPP-TPL-0001 C++ ---
 #
-# This file named file0001.txt has been
+# This file named 00_20260504_173807.txt has been
 # converted to a C++ Template
 # file.
 #
@@ -12,7 +12,7 @@
 
 /*
 ===========================================================
------ file0001.txt -----
+----- 00_20260504_173807.txt -----
 
 Written in ISO/IEC 14882:2011 standard C++
 ===========================================================

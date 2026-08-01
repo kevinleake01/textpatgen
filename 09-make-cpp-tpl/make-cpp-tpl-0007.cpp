@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
   std::printf("int main(int argc, char *argv[])\n");
   std::printf("{\n");
   std::printf("  ofstream outfile;\n");
-  std::printf("  outfile.open(\"file0007.txt\", ios_base::out);  /* Open file for writing */\n");
+  std::printf("  outfile.open(\"00_.txt\", ios_base::out);  /* Open file for writing */\n");
   std::printf("  outfile << \""); // Open first outfile statement
 
   while (c != EOF) // Loop until the end of the file

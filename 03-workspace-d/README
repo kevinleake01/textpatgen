@@ -9,8 +9,6 @@ using the various D compilers as follows:
 --- Using DMD
 
 dmd -run tpl-decgen-0001.d 0 99 10
-  or
-rdmd tpl-decgen-0001.d 0 99 10
 -------------------------------------------
 --- Using GCC (GDC)
 
